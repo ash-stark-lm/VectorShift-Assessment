@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+/* Hide scrollbar globally */
+/* Hide scrollbar globally */
+html,
+body {
+  overflow: auto; /* make sure scrolling is enabled */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent; /* optional */
+}
